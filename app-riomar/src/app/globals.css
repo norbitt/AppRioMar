@@ -1,0 +1,44 @@
+@import "tailwindcss";
+
+:root {
+  --background: #f8f9fa;
+  --foreground: #2d3e50;
+  
+  /* RioMar Brand Colors */
+  --riomar-teal: #00959A;
+  --riomar-teal-dark: #007A7E;
+  --riomar-blue: #2D3E50;
+  --riomar-accent: #E35205;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  
+  --color-riomar-teal: var(--riomar-teal);
+  --color-riomar-teal-dark: var(--riomar-teal-dark);
+  --color-riomar-blue: var(--riomar-blue);
+  --color-riomar-accent: var(--riomar-accent);
+
+  --font-sans: var(--font-lato), Arial, sans-serif;
+  --font-heading: var(--font-montserrat), sans-serif;
+
+  @keyframes scan {
+    0% {
+      top: -50%;
+    }
+    100% {
+      top: 150%;
+    }
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+}
