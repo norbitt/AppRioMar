@@ -1,0 +1,8 @@
+{
+  "expo": {
+    "name": "App RioMar Mobile",
+    "slug": "app-riomar-mobile",
+    "scheme": "app-riomar-mobile",
+    "platforms": ["ios", "android", "web"]
+  }
+}
